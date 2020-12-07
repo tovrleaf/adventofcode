@@ -2,7 +2,7 @@ import os
 import sys
 
 def get_input():
-    return  [int(l.strip('\n')) for l in open('/'.join([os.path.dirname(os.path.abspath(__file__)), 'input.txt']    )).readlines()]
+    return  [int(l.strip('\n')) for l in open('/'.join([os.path.dirname(os.path.abspath(__file__)), 'input.txt'])).readlines()]
 
 items = get_input()
 
