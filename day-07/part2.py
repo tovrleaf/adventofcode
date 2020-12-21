@@ -19,9 +19,7 @@ def find_bag(color):
         return count
     for cur_color in color_collection:
         cur_count = int(color_collection[cur_color])
-        count += cur_count
-        inner_count = find_bag(cur_color)
-        count += inner_count * cur_count
+        count += cur_count + cur_count * find_bag(cur_color)
     return count
 
 print(find_bag('shiny gold'))
