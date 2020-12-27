@@ -15,6 +15,9 @@ Also see my [Vim
 configuration](https://github.com/tovrleaf/vim-files) since
 2010.
 
+I'm taking this as algorithmic challenge, so no libraries
+are used.
+
 ### Running with my setup
 
 Open terminal and split it vertically. Run `jupyter
